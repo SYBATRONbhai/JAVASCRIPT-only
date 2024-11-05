@@ -41,7 +41,18 @@ for (let index = 0; index < myArray.length; index++) {
 
 for (let index = 1; index <= 20; index++) {
     if (index == 5) {
-        console.log(`Detected 5`);
+        console.log(`Detected Unwanted number!!!`);
+        console.log(`I won't print ${index}`);
+        continue
+    }
+    if (index == 13) {
+        console.log(`Unlucky number!!!`);
+        console.log(`I won't print ${index}`);
+        continue
+    }
+    if (index == 18) {
+        console.log(`Virat Kholi!!!`);
+        console.log(`I won't print ${index}`);
         continue
     }
    console.log(`Value of i is ${index}`);
