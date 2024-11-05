@@ -1,7 +1,7 @@
 // for
 
-for (let i = 0; i <= 10; i++) {
-    const element = i;
+for (let r = 0; r <= 10; r++) {
+    const element = r;
     if (element == 5) {
         //console.log("5 is best number");
     }
